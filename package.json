@@ -1,0 +1,36 @@
+{
+  "name": "vue-create-skeleton",
+  "version": "1.0.8",
+  "description": "a nice tool to make skeleton screen",
+  "main": "src",
+  "bin": {
+    "dps": "bin/dps-cli.js"
+  },
+  "scripts": {
+    "start": "node ./bin/dps-cli.js start"
+  },
+  "puppeteer_version": "1.7.0",
+  "app": {
+    "alias": "dps"
+  },
+  "dependencies": {
+    "carlo": "^0.9.46",
+    "chalk": "^2.4.1",
+    "cheerio": "^1.0.0-rc.2",
+    "commander": "^2.18.0",
+    "cross-env": "^5.2.0",
+    "inquirer": "^7.3.3",
+    "node-emoji": "^1.8.1",
+    "ora": "^3.0.0",
+    "prompts": "^1.1.0",
+    "puppeteer-core": "^5.3.0"
+  },
+  "homepage": "https://github.com/sqq5682/vue-create-skeleton.git",
+  "keywords": [
+    "dps",
+    "skeleton screen",
+    "skeleton",
+    "loading",
+    "prerender"
+  ]
+}
