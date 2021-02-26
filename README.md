@@ -59,7 +59,7 @@ npm run start
 | routerList | 待生成骨架屏的页面地址数组 | -- | 是
 | outfilePath | 生成的骨架屏节点写入的文件 | -- | 否
 | output.injectSelector | 骨架屏节点插入的位置 | #app | 否
-| header.height | 主题header的高 | -- | 否s
+| header.height | 主题header的高 | -- | 否
 | header.background | 主题header的背景色 | -- | 否
 | background | 骨架屏主题色 | #ecf0f2 | 否
 | animation | css3动画属性 | -- | 否
