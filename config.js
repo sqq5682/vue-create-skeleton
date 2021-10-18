@@ -1,7 +1,7 @@
 const path = require('path');
 const baseUrl = 'https://m.baidu.com' //https://m.baidu.com/ //预览网页域名
 const outfilePath = path.join(__dirname,'../mobile/src/skeleton/pages') //生成首页骨架屏的目标地址 目标项目和生成骨架屏项目最好同级目录
-// const loginPath = `${baseUrl}/login` //需要登录状态的页面登录地址
+const loginPath = `${baseUrl}/login` //需要登录状态的页面登录地址
 
 const SkeRouterName = [ //需要要生成的页面地址
 	//'orderDetail?orderId=',//订单详情
